@@ -1,0 +1,8 @@
+The problem involves cell-phone signals from cell-phone towers. We assume we have a fixed area
+of land and a fixed number of towers (n). Each tower might have different power levels, so the
+coverage radius may differ among towers (coverage represented by circles). We want to move
+the locations of the towers, or centers of the circles, to maximize coverage. The towers must
+stay within the area of land (these are our constraints). To maximize coverage, we will actually
+minimize signal overlap. To compute signal overlap, we will compute intersection of two circles
+for each pair of towers. Since the intersection of circles is a nonlinear function, and we constrain
+the towers to stand within certain land area, this is a nonlinear programming problem.
